@@ -137,15 +137,6 @@
 		<respuesta_correcta>c</respuesta_correcta>
 	</pregunta>
 	<pregunta>
-		<texto>Els primers 3 parells de nibbles en una adreça MAC...</texto>
-		<opciones>
-			<opcion valor="a">Identifica el software</opcion>
-			<opcion valor="b">Sumen 64</opcion>
-			<opcion valor="c">Identifiquen el fabricant de la NIC</opcion>
-		</opciones>
-		<respuesta_correcta>a</respuesta_correcta>
-	</pregunta>
-	<pregunta>
 		<texto>Què és el CIDR?</texto>
 		<opciones>
 			<opcion valor="a">Classless International Dial Reference</opcion>
@@ -793,6 +784,7 @@
 		</opciones>
 		<respuesta_correcta>c</respuesta_correcta>
 	</pregunta>
+	
 	<!-- PREGUNTAS TEMA 2 -->
 	<!-- Pregunta 1 -->
 	<pregunta>
@@ -2953,7 +2945,7 @@
 			<opcion valor="b">F/UTP</opcion>
 			<opcion valor="c">U/FTP</opcion>
 		</opciones>
-		<respuesta_correcta>a</respuesta_correcta>
+		<respuesta_correcta>c</respuesta_correcta>
 	</pregunta>
 	<!-- Pregunta 7 -->
 	<pregunta>
@@ -3045,4 +3037,10 @@
 		</opciones>
 		<respuesta_correcta>a</respuesta_correcta>
 	</pregunta>
-</preguntas>
+
+
+	<!-- PREGUNTES TEST EXAMEN -->
+
+
+
+</preguntas>-->

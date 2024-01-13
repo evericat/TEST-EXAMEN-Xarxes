@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+<pregunta>
+		<texto>Per què un receptor TCP pot esperar fins a 200ms per enviar la confirmació a l'emissor?</texto>
+		<opciones>
+			<opcion valor="a">Per no esperar 400ms</opcion>
+			<opcion valor="b">Per si pot fer piggybacking</opcion>
+			<opcion valor="c">Per enviar dues confirmacions</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Quin dels flags TCP següents intervé en el tancament de la connexió?</texto>
+		<opciones>
+			<opcion valor="a">URG</opcion>
+			<opcion valor="b">FIN</opcion>
+			<opcion valor="c">SYN</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quina funció de C permet esperar la recepció d'un paquet pel socket?</texto>
+		<opciones>
+			<opcion valor="a">waitpacket( )</opcion>
+			<opcion valor="b">recvfrom( )</opcion>
+			<opcion valor="c">waitsocket( )</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>A la banda del client, qui implementa QUIC?</texto>
+		<opciones>
+			<opcion valor="a">El navegador</opcion>
+			<opcion valor="b">Apache</opcion>
+			<opcion valor="c">El sistema operatiu</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Què succeeix si falla la comprovació de checksum en UDP?</texto>
+		<opciones>
+			<opcion valor="a">Es descarta el paquet</opcion>
+			<opcion valor="b">Es descarta el paquet i s'avisa l'origen</opcion>
+			<opcion valor="c">Es disminueix el TTL</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Què és el Slow Start?</texto>
+		<opciones>
+			<opcion valor="a">El mecanisme per fer segments més grans que la MTU</opcion>
+			<opcion valor="b">El mecanisme per establir una connexió TCP</opcion>
+			<opcion valor="c">El mecanisme per evitar congestions a la xarxa amb TCP</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>La mida de finestra que inclou la capçalera TCP...</texto>
+		<opciones>
+			<opcion valor="a">Indica les mides de les cortines que ens faran al Bauhaus</opcion>
+			<opcion valor="b">Indica la mida disponible al buffer del receptor o un valor a partir del qual calcular-lo</opcion>
+			<opcion valor="c">Indica les mides de les cortines que ens faran al Leroy Merlin</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Què tenen d'especial les connexions amb QUIC?</texto>
+		<opciones>
+			<opcion valor="a">Es fan sobre UDP</opcion>
+			<opcion valor="b">Es fan sobre TCP</opcion>
+			<opcion valor="c">No ofereixen seguretat de la informació</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 11 -->
+	<pregunta>
+		<texto>El protocol TCP pot utilitzar extensions?</texto>
+		<opciones>
+			<opcion valor="a">No, no és fàcil ampliar les funcionalitats</opcion>
+			<opcion valor="b">TCP no, UDP sí</opcion>
+			<opcion valor="c">Sí, a través d'afegir opcions a la seva capçalera</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 12 -->
+	<pregunta>
+		<texto>Com garanteix QUIC que hi ha confidencialitat en les dades que es transmeten?</texto>
+		<opciones>
+			<opcion valor="a">Usant una connexió TCP</opcion>
+			<opcion valor="b">Usant una connexió HTTPS</opcion>
+			<opcion valor="c">Usant criptografia, a l'estil de TLS</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 13 -->
+	<pregunta>
+		<texto>Què succeeix si falla la comprovació de checksum en UDP?</texto>
+		<opciones>
+			<opcion valor="a">S'augmenta el TTL</opcion>
+			<opcion valor="b">Es descarta el paquet i s'avisa l'origen</opcion>
+			<opcion valor="c">Es descarta el paquet</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 14 -->
+	<pregunta>
+		<texto>Quines característiques té el protocol UDP a la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">Estableix una connexió, parteix en contingut en segments i té cura que aquests arribin a destí.</opcion>
+			<opcion valor="b">Senzillament proporciona la possibilitat d'afegir port origen, destí i poca cosa més, a un datagrama.</opcion>
+			<opcion valor="c">Estableix una connexió i envia un fluxe de datagrames amb UDP en la capa de transport.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 15 -->
+	<pregunta>
+		<texto>Què significa UDP?</texto>
+		<opciones>
+			<opcion valor="a">Useless Datagram Protocol</opcion>
+			<opcion valor="b">User Datagram Protocol</opcion>
+			<opcion valor="c">Used Datagram Protocol</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quin protocol a la capa de transport senzillament proporciona la possibilitat d'afegir port origen, destí i poca cosa més, a un datagrama?</texto>
+		<opciones>
+			<opcion valor="a">QUIC</opcion>
+			<opcion valor="b">UDP</opcion>
+			<opcion valor="c">TCP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Què significa UDP?</texto>
+		<opciones>
+			<opcion valor="a">UDP is not tcp</opcion>
+			<opcion valor="b">Ultimate Disintegration Protocol</opcion>
+			<opcion valor="c">User Datagram Protocol</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Què succeeix si falla la comprovació de checksum en UDP?</texto>
+		<opciones>
+			<opcion valor="a">Es descarta el paquet</opcion>
+			<opcion valor="b">S'envia un ACK</opcion>
+			<opcion valor="c">S'augmenta el TTL</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quin protocol fa servir QUIC per sota?</texto>
+		<opciones>
+			<opcion valor="a">TLS</opcion>
+			<opcion valor="b">FTP</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Una videotrucada de Whatsapp, creieu que anirà per TCP o UDP?</texto>
+		<opciones>
+			<opcion valor="a">Cap dels dos</opcion>
+			<opcion valor="b">TCP</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quins són els flags al primer estàndard de capçalera de TCP?</texto>
+		<opciones>
+			<opcion valor="a">WND, ACK, SEQ, ENC, RST, END</opcion>
+			<opcion valor="b">URG, ACK, PSH, RST, SYN, FIN</opcion>
+			<opcion valor="c">END, FCK, WND, RST, PSH, URG</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Què significa un segment amb el flag ACK=1 i el valor 300000 al camp acknowledgement?</texto>
+		<opciones>
+			<opcion valor="a">He rebut correctament fins el byte 300100 i espero rebre el 300099</opcion>
+			<opcion valor="b">He rebut correctament fins el byte 300000 i espero rebre el 300001</opcion>
+			<opcion valor="c">He rebut correctament fins el byte 299999 i espero rebre el 300000</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Quina de les afirmacions següents no és certa?</texto>
+		<opciones>
+			<opcion valor="a">Per fer el checksum, a banda de les dades, es consideren els ports origen i destí</opcion>
+			<opcion valor="b">Per fer el checksum, a banda de les dades, es consideren les adreces IP origen i destí</opcion>
+			<opcion valor="c">Per fer el checksum, a banda de les dades, es considera la longitud del paquet UDP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Les capçaleres de QUIC...</texto>
+		<opciones>
+			<opcion valor="a">... són llargues pels paquets d'establiment de connexió i curtes per la transmissió de dades</opcion>
+			<opcion valor="b">... són curtes pels paquets d'establiment de connexió i llargues per la transmissió de dades</opcion>
+			<opcion valor="c">... són curtes pels paquets d'establiment de connexió i per la transmissió de dades</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Quins són els flags al primer estàndard de capçalera de TCP?</texto>
+		<opciones>
+			<opcion valor="a">URG, ACK, PSH, RST, SYN, FIN</opcion>
+			<opcion valor="b">WND, ACK, SEQ, ENC, RST, END</opcion>
+			<opcion valor="c">END, ACK, WND, RST, PSH, URG</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 12 -->
+	<pregunta>
+		<texto>Si un emissor TCP ha d'enviar molts bytes, pot enviar diversos segments seguits sense esperar-ne l'acknowledgement de cadascun d'ells?</texto>
+		<opciones>
+			<opcion valor="a">No, perquè col·lapsarà la xarxa</opcion>
+			<opcion valor="b">Sí, sempre i quan segueixi el model Slow Start i respecti la finestra de congestió de xarxa</opcion>
+			<opcion valor="c">Sí, sempre i quan segueixi el model Exponential Backoff</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Un emissor TCP envia segments amb els números de seqüència 1, 1401, 2220 i 3429. Rep l'acknowledgement amb valor 4001. Què ha passat?</texto>
+		<opciones>
+			<opcion valor="a">El receptor ha rebut bé tots els segments</opcion>
+			<opcion valor="b">El receptor només ha rebut bé el darrer segment</opcion>
+			<opcion valor="c">No ho podem saber</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 13 -->
+	<pregunta>
+		<texto>Quina és la seqüència de segments per establir la connexió TCP entre client i servidor?</texto>
+		<opciones>
+			<opcion valor="a">El client envia al servidor un segment sense dades amb el flag ACK activat, el servidor respon amb SYN i ACK, el client respon amb SYN.</opcion>
+			<opcion valor="b">El client envia al servidor un segment sense dades amb el flag SYN activat, el servidor respon amb SYN, el client respon amb SYN.</opcion>
+			<opcion valor="c">El client envia al servidor un segment sense dades amb el flag SYN activat, el servidor respon amb SYN i ACK, el client respon amb ACK.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Què succeeix si falla la comprovació de checksum en TCP?</texto>
+		<opciones>
+			<opcion valor="a">Es descarta el segment</opcion>
+			<opcion valor="b">Es disminueix el TTL</opcion>
+			<opcion valor="c">Es descarta el segment i es tanca la connexió</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quines dades es troben a la capçalera UDP?</texto>
+		<opciones>
+			<opcion valor="a">ports origen i desti</opcion>
+			<opcion valor="b">adreces IP</opcion>
+			<opcion valor="c">adreces MAC</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quina funció de C permet l'enllaç d'un socket al servidor?</texto>
+		<opciones>
+			<opcion valor="a">socket( )</opcion>
+			<opcion valor="b">link( )</opcion>
+			<opcion valor="c">bind( )</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quines característiques té el protocol TCP a la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">Estableix una connexió i envia un fluxe de datagrames amb UDP en la capa de transport.</opcion>
+			<opcion valor="b">Estableix una connexió, parteix en contingut en segments i té cura que aquests arribin a destí.</opcion>
+			<opcion valor="c">Senzillament proporciona la possibilitat d'afegir port origen, destí i poca cosa més, a un datagrama.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Què tenen d'especial les connexions amb QUIC?</texto>
+		<opciones>
+			<opcion valor="a">Es fan sobre HTTP</opcion>
+			<opcion valor="b">Ofereixen seguretat de la informació</opcion>
+			<opcion valor="c">Es fan sobre TCP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quan ocupa la capçalera UDP?</texto>
+		<opciones>
+			<opcion valor="a">8 KB</opcion>
+			<opcion valor="b">8 bytes</opcion>
+			<opcion valor="c">8 bits</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Quin protocol a la capa de transport estableix una connexió, parteix en contingut en segments i té cura que aquests arribin a destí?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">QUIC</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Quins són els flags al primer estàndard de capçalera de TCP?</texto>
+		<opciones>
+			<opcion valor="a">URG, ACK, WND, RST, PSH, END</opcion>
+			<opcion valor="b">URG, ACK, SEQ, WND, RST, END</opcion>
+			<opcion valor="c">URG, ACK, PSH, RST, SYN, FIN</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Quines dades no es troben a la capçalera UDP?</texto>
+		<opciones>
+			<opcion valor="a">checksum</opcion>
+			<opcion valor="b">adreces IP</opcion>
+			<opcion valor="c">ports origen i desti</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Per què un receptor TCP pot esperar fins a 200ms per enviar la confirmació a l'emissor?</texto>
+		<opciones>
+			<opcion valor="a">Per si pot aprofitar fer l'ACK en un segment amb dades</opcion>
+			<opcion valor="b">Per enviar duplicats</opcion>
+			<opcion valor="c">Per no esperar 400ms</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 11 -->
+	<pregunta>
+		<texto>En TCP, si acaba el timeout per un segment sense haver-ne rebut l'acknowledgement...</texto>
+		<opciones>
+			<opcion valor="a">S'esborra del buffer de l'emissor</opcion>
+			<opcion valor="b">Es torna a enviar</opcion>
+			<opcion valor="c">S'envia un ACK al receptor</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 12 -->
+	<pregunta>
+		<texto>Un segment tindrà com a mida mínima...</texto>
+		<opciones>
+			<opcion valor="a">El que ocupi la capçalera de TCP</opcion>
+			<opcion valor="b">Al voltant de 64 bytes</opcion>
+			<opcion valor="c">Al voltant de 1500 bits</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 13 -->
+	<pregunta>
+		<texto>Quan TCP transmet un segment...</texto>
+		<opciones>
+			<opcion valor="a">Activa un timeout pel segment.</opcion>
+			<opcion valor="b">Activa una finestra pel segment.</opcion>
+			<opcion valor="c">Activa un ACK pel segment.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 14 -->
+	<pregunta>
+		<texto>Què significa un segment amb el flag ACK=1 i el valor 3000 al camp acknowledgement?</texto>
+		<opciones>
+			<opcion valor="a">He rebut correctament fins el byte 3001 i espero rebre el 3000</opcion>
+			<opcion valor="b">He rebut correctament fins el byte 2999 i espero rebre el 3000</opcion>
+			<opcion valor="c">He rebut correctament fins el byte 3000 i espero rebre el 3001</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 15 -->
+	<pregunta>
+		<texto>Quin protocol a la capa de transport estableix una connexió i envia un fluxe de datagrames amb UDP en la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">UDP</opcion>
+			<opcion valor="c">QUIC</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>El número de seqüència en TCP...</texto>
+		<opciones>
+			<opcion valor="a">... permet al receptor descartar duplicats</opcion>
+			<opcion valor="b">... permet al receptor descartar duplicats i ordenar segments al buffer</opcion>
+			<opcion valor="c">... permet a l'emissor descartar duplicats</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Qui va proposar una solució per a la finestra tonta?</texto>
+		<opciones>
+			<opcion valor="a">Homer Simpson</opcion>
+			<opcion valor="b">David Clarke</opcion>
+			<opcion valor="c">John Nagle</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quin port sol utilitzar el protocol Quote of the day?</texto>
+		<opciones>
+			<opcion valor="a">17</opcion>
+			<opcion valor="b">80</opcion>
+			<opcion valor="c">23</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>En el TCP segmentation offload...</texto>
+		<opciones>
+			<opcion valor="a">Molta de la feina la fa el programari</opcion>
+			<opcion valor="b">Molta de la feina la fa la NIC</opcion>
+			<opcion valor="c">Molta de la feina el fa el router</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Quin port sol utilitzar el protocol SMTP segur?</texto>
+		<opciones>
+			<opcion valor="a">995</opcion>
+			<opcion valor="b">110</opcion>
+			<opcion valor="c">465</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quin d'aquests mecanismes permet incrementar la possibilitat de fer piggybacking?</texto>
+		<opciones>
+			<opcion valor="a">Fast food</opcion>
+			<opcion valor="b">Selective acknowledgement</opcion>
+			<opcion valor="c">Delayed acknowledgements</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Quina de les afirmacions següents és correcta?</texto>
+		<opciones>
+			<opcion valor="a">Les opcions de la capçalera TCP s'usen, per exemple, per acordar un múltiple de la mida de finestra que anuncia la capçalera</opcion>
+			<opcion valor="b">TCP no admet opcions</opcion>
+			<opcion valor="c">Les opcions de TCP no es solen fer servir, al contrari que les d'IP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Quin port sol utilitzar el protocol File Transfer Protocol?</texto>
+		<opciones>
+			<opcion valor="a">30, 31</opcion>
+			<opcion valor="b">20, 21</opcion>
+			<opcion valor="c">21, 22</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>En el TCP segmentation offload...</texto>
+		<opciones>
+			<opcion valor="a">Molta de la feina la fa el programari</opcion>
+			<opcion valor="b">Molta de la feina la fa el TCP</opcion>
+			<opcion valor="c">Molta de la feina es fa per maquinari</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>El rang de ports 0 - 1023 és el...</texto>
+		<opciones>
+			<opcion valor="a">Rang registered ports</opcion>
+			<opcion valor="b">Rang well-known ports</opcion>
+			<opcion valor="c">Rang dynamic ports</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+</preguntas>

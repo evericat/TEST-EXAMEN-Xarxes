@@ -11,7 +11,7 @@ class TestApp:
         self.root.geometry("1200x500")
         self.center_window()
         self.current_question = self.load_progress()
-        self.questions = self.load_questions_from_xml("preguntas.xml")
+        self.questions = self.load_questions_from_xml("preguntas_tema1.xml")
         self.shuffle_questions()
 
         self.label_question = tk.Label(root, text="", wraplength=1160, justify="left", font=("Arial", 16))
@@ -31,6 +31,9 @@ class TestApp:
 
         self.stats_label = tk.Label(root, text="", font=("Arial", 14))
         self.stats_label.pack(side=tk.BOTTOM, pady=10)
+
+        self.correct_count = 0  # Contador de preguntas acertadas
+        self.incorrect_count = 0  # Contador de preguntas falladas
 
         self.load_question()
 
@@ -112,8 +115,10 @@ class TestApp:
                 if user_answer == chr(ord("a") + i):
                     if user_answer == self.questions[self.current_question]["correct_answer"]:
                         self.radio_buttons[i].config(fg="green")
+                        self.correct_count += 1
                     else:
                         self.radio_buttons[i].config(fg="red")
+                        self.incorrect_count += 1
 
             if user_answer == self.questions[self.current_question]["correct_answer"]:
                 messagebox.showinfo("Respuesta Correcta", "¡Correcto!")
@@ -136,9 +141,10 @@ class TestApp:
     def update_stats_label(self):
         total_questions = len(self.questions)
         answered_questions = self.current_question
-        correct_answers = sum(1 for i in range(answered_questions) if self.is_answer_correct(i))
+        correct_answers = self.correct_count
+        incorrect_answers = self.incorrect_count
 
-        stats_text = f"Total de preguntas: {total_questions}   |  Preguntas contestadas: {answered_questions}"
+        stats_text = f"Total de preguntas: {total_questions}   |  Preguntas contestadas: {answered_questions}   |  Correctas: {correct_answers}   |  Incorrectas: {incorrect_answers}"
         self.stats_label.config(text=stats_text)
 
 if __name__ == "__main__":

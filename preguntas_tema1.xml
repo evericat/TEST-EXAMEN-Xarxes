@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+	<!-- PREGUNTAS TEMA 1 -->
+	<pregunta>
+		<texto>El POTS és...</texto>
+		<opciones>
+			<opcion valor="a">... el sistema de telefonia analògica clàssic.</opcion>
+			<opcion valor="b">... una forma d'emprar FDM en les troncals de telefonia.</opcion>
+			<opcion valor="c">... el sistema digital de telefonia, com l'XDSI.</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les tecnologies s'ajusta a la commutació de circuits?</texto>
+		<opciones>
+			<opcion valor="a">La VoIP</opcion>
+			<opcion valor="b">Internet</opcion>
+			<opcion valor="c">La xarxa telefònica antiga (POTS)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Per mitjà de la commutació de paquets...</texto>
+		<opciones>
+			<opcion valor="a">... es creen circuits de telefonia clàssica.</opcion>
+			<opcion valor="b">... cap altra comunicació pot utilitzar el canal.</opcion>
+			<opcion valor="c">... es pot compartir el canal.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>En quin model de comunicació es fa servir el TCP?</texto>
+		<opciones>
+			<opcion valor="a">En el model de commutació de circuits</opcion>
+			<opcion valor="b">En el model orientat a la connexió</opcion>
+			<opcion valor="c">En el model no orientat a la connexió</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les següent situacions és pròpia de la commutació de paquets?</texto>
+		<opciones>
+			<opcion valor="a">Escala bé, a base d'augmentar el retard</opcion>
+			<opcion valor="b">Escala bé, mantenint el retard</opcion>
+			<opcion valor="c">Quan s'estableix un camí, aquest no el pot usar cap altra comunicació</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les tecnologies no s'ajusta a la commutació de paquets?</texto>
+		<opciones>
+			<opcion valor="a">Internet</opcion>
+			<opcion valor="b">La VoIP</opcion>
+			<opcion valor="c">La xarxa telefònica antiga (POTS)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les tecnologies s'ajusta a la commutació de circuits?</texto>
+		<opciones>
+			<opcion valor="a">La VoIP</opcion>
+			<opcion valor="b">Internet</opcion>
+			<opcion valor="c">La xarxa telefònica antiga (POTS)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les tecnologies no s'ajusta a la commutació de paquets?</texto>
+		<opciones>
+			<opcion valor="a">Internet</opcion>
+			<opcion valor="b">La VoIP</opcion>
+			<opcion valor="c">La xarxa telefònica antiga (POTS)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>La ISDN es correspon...</texto>
+		<opciones>
+			<opcion valor="a">Amb una xarxa telefònica analògica</opcion>
+			<opcion valor="b">Amb una xarxa telefònica digital</opcion>
+			<opcion valor="c">Amb una xarxa optimitzada per a veu IP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina de les següent situacions és pròpia de la commutació de circuits?</texto>
+		<opciones>
+			<opcion valor="a">Quan s'estableix un circuit, aquest no el pot usar cap altra comunicació</opcion>
+			<opcion valor="b">Un circuit té capacitat il·limitada</opcion>
+			<opcion valor="c">Escala bé</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>En quin model de comunicació no es controla el flux d'enviament de paquets?</texto>
+		<opciones>
+			<opcion valor="a">En el model no orientat a la connexió</opcion>
+			<opcion valor="b">En el model de commutació de circuits</opcion>
+			<opcion valor="c">En el model orientat a la connexió</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>En quin model de comunicació es controla el flux d'enviament de paquets?</texto>
+		<opciones>
+			<opcion valor="a">En el model no orientat a la connexió</opcion>
+			<opcion valor="b">En el model orientat a la connexió</opcion>
+			<opcion valor="c">En el model de commutació de circuits</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>La capa de xarxa...</texto>
+		<opciones>
+			<opcion valor="a">... tracta de la transmissió de dades entre nodes contiguus de la xarxa.</opcion>
+			<opcion valor="b">... tracta de la transmissió de dades entre processos en diferents punts de la xarxa.</opcion>
+			<opcion valor="c">... tracta de la transmissió de dades entre punts remots de la xarxa.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>El commutador o switch...</texto>
+		<opciones>
+			<opcion valor="a">Funciona amb commutació de circuits</opcion>
+			<opcion valor="b">És l'element central de les LAN cablejades</opcion>
+			<opcion valor="c">És l'element central de les xarxes sense fils</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Els primers 3 parells de nibbles en una adreça MAC...</texto>
+		<opciones>
+			<opcion valor="a">Sumen 16</opcion>
+			<opcion valor="b">Identifica el software</opcion>
+			<opcion valor="c">Identifiquen el fabricant de la NIC</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Què és el CIDR?</texto>
+		<opciones>
+			<opcion valor="a">Classless International Dial Reference</opcion>
+			<opcion valor="b">Classful Internet Domain Routers</opcion>
+			<opcion valor="c">Classless Inter-Domain Routing</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Podem connectar diversos switchos a un altre switch</texto>
+		<opciones>
+			<opcion valor="a">No</opcion>
+			<opcion valor="b">Només si hi ha bucles</opcion>
+			<opcion valor="c">Sí</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quines paraules falten per completar la frase: Els protocols ....... per desar dades auxiliars.</texto>
+		<opciones>
+			<opcion valor="a">envien un paquet</opcion>
+			<opcion valor="b">afegeixen una capçalera</opcion>
+			<opcion valor="c">redueixen la informacio</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Amb quin protocol relacionaries l'acrònim URL?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">HTTP</opcion>
+			<opcion valor="c">IP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>En quin model els clients també fan tasques de servidor?</texto>
+		<opciones>
+			<opcion valor="a">El model publicador/subscriptor</opcion>
+			<opcion valor="b">El model client/servidor</opcion>
+			<opcion valor="c">El model P2P</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quin d'aquests valors no és una adreça IP?</texto>
+		<opciones>
+			<opcion valor="a">255.255.255.1</opcion>
+			<opcion valor="b">1.1.1.1</opcion>
+			<opcion valor="c">256.256.256.0</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina d'aquestes adreces és una adreça IP?</texto>
+		<opciones>
+			<opcion valor="a">193.144.20.12</opcion>
+			<opcion valor="b">f4:f2:5d:a9:e1:02</opcion>
+			<opcion valor="c">ab-cd-59-xa-f2</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Un CPD és…</texto>
+		<opciones>
+			<opcion valor="a">Un client web</opcion>
+			<opcion valor="b">Un centre de processament de dades</opcion>
+			<opcion valor="c">Un servidor web</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quina d'aquestes adreces és una adreça IPv6?</texto>
+		<opciones>
+			<opcion valor="a">83.192.18.4</opcion>
+			<opcion valor="b">f4:f2:5d:a9:e1:02</opcion>
+			<opcion valor="c">2001:0db8:85a3:0000:0000:8a2e:0370:7334</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>En l'entorn de la web, el client és…</texto>
+		<opciones>
+			<opcion valor="a">El servidor al cloud</opcion>
+			<opcion valor="b">El port 80 TCP</opcion>
+			<opcion valor="c">El navegador web</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Els switchos es poden connectar jeràrquicament</texto>
+		<opciones>
+			<opcion valor="a">No</opcion>
+			<opcion valor="b">Només si hi ha bucles</opcion>
+			<opcion valor="c">Sí</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 16 -->
+	<pregunta>
+		<texto>Quina d'aquestes adreces no és una adreça MAC?</texto>
+		<opciones>
+			<opcion valor="a">f4:f2:5d:a9:e1:02</opcion>
+			<opcion valor="b">f4:z2:5d:a9:e1:02:a2</opcion>
+			<opcion valor="c">f4-f2-5d-a9-e1-02</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 17 -->
+	<pregunta>
+		<texto>Els primers 3 parells de nibbles en una adreça MAC…</texto>
+		<opciones>
+			<opcion valor="a">Identifica la NIC</opcion>
+			<opcion valor="b">Identifiquen el fabricant de la NIC</opcion>
+			<opcion valor="c">Sumen 64</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 18 -->
+	<pregunta>
+		<texto>Els primers 3 parells de nibbles en una adreça MAC…</texto>
+		<opciones>
+			<opcion valor="a">Són els oposats a la IP</opcion>
+			<opcion valor="b">Són el Organisationally Unique Identifier</opcion>
+			<opcion valor="c">Són el Media Access Control Trailer</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 19 -->
+	<pregunta>
+		<texto>Quina d'aquestes adreces és una adreça IPv6?</texto>
+		<opciones>
+			<opcion valor="a">2001:0db8:85a3:0000:8a2e</opcion>
+			<opcion valor="b">2001:0db8:85a3:0000:0000:8a2e:0370:7334:1994</opcion>
+			<opcion valor="c">2001:0db8:85a3:0000:0000:8a2e:0370:7334</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 20 -->
+	<pregunta>
+		<texto>Quin d'aquests protocols garanteix l'enviament de tota la informació en ordre?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">IP</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quin dels protocols utilitza número de confirmació?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">HTTP</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Què significa l'acrònim HTTP?</texto>
+		<opciones>
+			<opcion valor="a">Hyper Text Protocol</opcion>
+			<opcion valor="b">Hyper Transmission Protocol</opcion>
+			<opcion valor="c">Hypertext Transfer Protocol</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>En el model Client/Servidor, qui inicia les connexions?</texto>
+		<opciones>
+			<opcion valor="a">el servidor.</opcion>
+			<opcion valor="b">el client.</opcion>
+			<opcion valor="c">ambdós indistintament.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>El protocol TCP correspon…</texto>
+		<opciones>
+			<opcion valor="a">…a la capa d'aplicació</opcion>
+			<opcion valor="b">…a la capa d'enllaç</opcion>
+			<opcion valor="c">…a la capa de transport</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Quin d'aquests models està relacionat amb les notificacions push?</texto>
+		<opciones>
+			<opcion valor="a">Client/servidor</opcion>
+			<opcion valor="b">Publicador/subscriptor</opcion>
+			<opcion valor="c">P2P</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>En quina capa s'usen els números de port?</texto>
+		<opciones>
+			<opcion valor="a">Xarxa</opcion>
+			<opcion valor="b">Transport</opcion>
+			<opcion valor="c">Enllaç</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>El text campusvirtual.urv.cat es un…</texto>
+		<opciones>
+			<opcion valor="a">Nom d'adreça</opcion>
+			<opcion valor="b">Nom de transport</opcion>
+			<opcion valor="c">Nom de domini</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Si no tenim el servidor al nostre CPD…</texto>
+		<opciones>
+			<opcion valor="a">El podem tenir en una empresa de hosting</opcion>
+			<opcion valor="b">Necessitarem un client TOR</opcion>
+			<opcion valor="c">No podrem accedir al servidor</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Quin dels protocols utilitza número de seqüència?</texto>
+		<opciones>
+			<opcion valor="a">HTTP</opcion>
+			<opcion valor="b">TCP</opcion>
+			<opcion valor="c">UDP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Quin dels següents valors podria ser una màscara de xarxa?</texto>
+		<opciones>
+			<opcion valor="a">255.255.255.255.0</opcion>
+			<opcion valor="b">255255255255</opcion>
+			<opcion valor="c">255.255.0.0</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 11 -->
+	<pregunta>
+		<texto>Com s'anomena el PDU de la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">Segment</opcion>
+			<opcion valor="b">Datagrama</opcion>
+			<opcion valor="c">Trama (Frame)</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 12 -->
+	<pregunta>
+		<texto>Quina d'aquestes adreces no és una adreça MAC?</texto>
+		<opciones>
+			<opcion valor="a">f4:a2:5d:a9:e1:b2</opcion>
+			<opcion valor="b">f4:a2:5d:a9:e1:02:a2:c2:f5</opcion>
+			<opcion valor="c">f4:f2:5d:a9:e1:af</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 13 -->
+	<pregunta>
+		<texto>El servidor no sol estar…</texto>
+		<opciones>
+			<opcion valor="a">En un mòbil</opcion>
+			<opcion valor="b">En un hosting</opcion>
+			<opcion valor="c">En una granja de servidors</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 14 -->
+	<pregunta>
+		<texto>Quin dispositiu interconnecta la LAN de casa amb Internet?</texto>
+		<opciones>
+			<opcion valor="a">Router</opcion>
+			<opcion valor="b">Punt d'accés</opcion>
+			<opcion valor="c">Commutador</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 15 -->
+	<pregunta>
+		<texto>Quin dels següents valors podria ser una màscara de xarxa?</texto>
+		<opciones>
+			<opcion valor="a">192.168.1.1</opcion>
+			<opcion valor="b">0.0.0.0</opcion>
+			<opcion valor="c">255.255.255.0</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 16 -->
+	<pregunta>
+		<texto>Un SSID és…</texto>
+		<opciones>
+			<opcion valor="a">Un Wired Network Identifier</opcion>
+			<opcion valor="b">Una adreça MAC</opcion>
+			<opcion valor="c">L'identificador d'una Wi-Fi</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 17 -->
+	<pregunta>
+		<texto>Quin dels protocols correspon a la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">DNS</opcion>
+			<opcion valor="c">IP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 18 -->
+	<pregunta>
+		<texto>Quin d'aquests protocols divideix la informació en diferents segments?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">UDP</opcion>
+			<opcion valor="c">IP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 19 -->
+	<pregunta>
+		<texto>Quin d'aquests valors no és una adreça IP?</texto>
+		<opciones>
+			<opcion valor="a">193.144.20.192</opcion>
+			<opcion valor="b">100.100.1.999</opcion>
+			<opcion valor="c">255.255.255.1</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 20 -->
+	<pregunta>
+		<texto>Quin dels protocols utilitza número de seqüència?</texto>
+		<opciones>
+			<opcion valor="a">TCP</opcion>
+			<opcion valor="b">UDP</opcion>
+			<opcion valor="c">IP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Una tablet està connectada a una Wi-Fi a 54 Mbps, i aquesta està connectada a Internet a 300 Mbps. Quina afirmació és correcta?</texto>
+		<opciones>
+			<opcion valor="a">Des de la tablet tenim un bitrate de 54 Mbps per navegar per Internet</opcion>
+			<opcion valor="b">La connexió a Internet baixarà a 54 Mbps</opcion>
+			<opcion valor="c">Des de la tablet tenim un bitrate de 300 Mbps per navegar per Internet</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quina velocitat és més elevada?</texto>
+		<opciones>
+			<opcion valor="a">1 kbps</opcion>
+			<opcion valor="b">1 Mbps</opcion>
+			<opcion valor="c">1 MBps</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>El temps de processat...</texto>
+		<opciones>
+			<opcion valor="a">Serà més gran com més complexe sigui l'algorisme de decisió de sortida</opcion>
+			<opcion valor="b">Serà més gran en un sistema sense prioritats</opcion>
+			<opcion valor="c">Serà més petit en un sistema amb prioritats</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>El retard de propagació és...</texto>
+		<opciones>
+			<opcion valor="a">... el temps que triga el senyal a ser transmès pel medi.</opcion>
+			<opcion valor="b">... el temps que triga el dispositiu de xarxa a transmetre els bits cap al medi de transmissió.</opcion>
+			<opcion valor="c">... el temps que triga la informació a ser processada pel node (control d'errors, etc.)</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>El retard de transmissió és...</texto>
+		<opciones>
+			<opcion valor="a">... el temps que triga el dispositiu de xarxa a transmetre els bits cap al medi de transmissió.</opcion>
+			<opcion valor="b">... el temps que triga el senyal a ser transmès pel medi.</opcion>
+			<opcion valor="c">... el temps que triga la informació a ser processada pel node (control d'errors, etc.)</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quina de les següents és la correcta?</texto>
+		<opciones>
+			<opcion valor="a">Un kbit/s són 1024 bits per segon</opcion>
+			<opcion valor="b">Un kbit/s són 10^3 bits per segon</opcion>
+			<opcion valor="c">Un kbit/s són 8000 bits per segon</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quants bits són necessaris per codificar 1000 símbols?</texto>
+		<opciones>
+			<opcion valor="a">8</opcion>
+			<opcion valor="b">1000/2</opcion>
+			<opcion valor="c">10</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>El retard de propagació és...</texto>
+		<opciones>
+			<opcion valor="a">... variable i gran.</opcion>
+			<opcion valor="b">... fix i gairebé despreciable.</opcion>
+			<opcion valor="c">... nul.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quina de les següents opcions és la correcta?</texto>
+		<opciones>
+			<opcion valor="a">El goodput és superior al bitrate</opcion>
+			<opcion valor="b">El goodput no és ni superior ni inferior al bitrate</opcion>
+			<opcion valor="c">El goodput és inferior al bit rate</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quina velocitat és més elevada?</texto>
+		<opciones>
+			<opcion valor="a">1 MBps</opcion>
+			<opcion valor="b">9 Mbps</opcion>
+			<opcion valor="c">1 kbps</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>El throughput d'una xarxa es pot definir...</texto>
+		<opciones>
+			<opcion valor="a">... com la quantitat de dades efectiva que transmet.</opcion>
+			<opcion valor="b">... com el temps que triga un paquet en anar i tornar.</opcion>
+			<opcion valor="c">... com la variació de retard que experimenta.</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>El retard de processat és...</texto>
+		<opciones>
+			<opcion valor="a">... el temps que triga el dispositiu de xarxa a transmetre els bits cap al medi de transmissió.</opcion>
+			<opcion valor="b">... el temps que triga el senyal a ser transmès pel medi.</opcion>
+			<opcion valor="c">... el temps que triga la informació a ser processada pel node (control d'errors, etc.)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>El retard en l'enviament d'informació d'un node al contigu es deu a...</texto>
+		<opciones>
+			<opcion valor="a">... el delay, el jitter i el throughput.</opcion>
+			<opcion valor="b">... el temps de processat, l'encuament, la transmissió i la propagació.</opcion>
+			<opcion valor="c">... el temps de processat, el delay, el jitter i l'encuament.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quants bits són necessaris per codificar 8 símbols?</texto>
+		<opciones>
+			<opcion valor="a">2^8</opcion>
+			<opcion valor="b">8</opcion>
+			<opcion valor="c">3</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quants bits són necessaris per codificar 4 símbols?</texto>
+		<opciones>
+			<opcion valor="a">3</opcion>
+			<opcion valor="b">2</opcion>
+			<opcion valor="c">2^2</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega d'elaborar estàndards de la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">IEEE</opcion>
+			<opcion valor="b">IANA</opcion>
+			<opcion valor="c">IETF</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>En una tecnologia de xarxes, la divisió dels bits en trames es correspon a la capa...</texto>
+		<opciones>
+			<opcion valor="a">d'enllaç.</opcion>
+			<opcion valor="b">d'aplicació.</opcion>
+			<opcion valor="c">de xarxa.</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega d'assignar adreces IP?</texto>
+		<opciones>
+			<opcion valor="a">IETF</opcion>
+			<opcion valor="b">IANA</opcion>
+			<opcion valor="c">IEEE</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes no hem vist a classe?</texto>
+		<opciones>
+			<opcion valor="a">IANA</opcion>
+			<opcion valor="b">PDC</opcion>
+			<opcion valor="c">IETF</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>En una tecnologia de xarxa, el voltatge assignat al patró de bits '011' es correspon...</texto>
+		<opciones>
+			<opcion valor="a">al nivell d'enllaç.</opcion>
+			<opcion valor="b">al nivell físic.</opcion>
+			<opcion valor="c">al nivell d'aplicació.</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>A l'arquitectura TCP/IP, les aplicacions inclouen les capes del model OSI:</texto>
+		<opciones>
+			<opcion valor="a">sols la capa d'Aplicacció.</opcion>
+			<opcion valor="b">Xarxa i Transport.</opcion>
+			<opcion valor="c">Presentació i Sessió.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega d'elaborar estàndards de nivells físics i d'enllaç?</texto>
+		<opciones>
+			<opcion valor="a">IEEE</opcion>
+			<opcion valor="b">IETF</opcion>
+			<opcion valor="c">IANA</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega de discutir sobre els beneficis d'internet a la societat?</texto>
+		<opciones>
+			<opcion valor="a">eSOCIETY</opcion>
+			<opcion valor="b">ISOC</opcion>
+			<opcion valor="c">IETF</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega d'elaborar estàndards de nivells físics i d'enllaç?</texto>
+		<opciones>
+			<opcion valor="a">IEEEE</opcion>
+			<opcion valor="b">IEE</opcion>
+			<opcion valor="c">IEEE</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Les capes del model TCP són...</texto>
+		<opciones>
+			<opcion valor="a">Física, enllaç, xarxa, transport i aplicació.</opcion>
+			<opcion valor="b">Física, enllaç, xarxa, transport, sessió, presentació i aplicació.</opcion>
+			<opcion valor="c">Física, enllaç, xarxa, transport, presentació i aplicació.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Les notificacions push es relacionen amb...</texto>
+		<opciones>
+			<opcion valor="a">El model client/servidor</opcion>
+			<opcion valor="b">El model P2P</opcion>
+			<opcion valor="c">El model publicador/subscriptor</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>El model de referència TCP/IP</texto>
+		<opciones>
+			<opcion valor="a">Complica el model OSI, atribuïnt algunes de les seves capes com a responsabilitat de la xarxa.</opcion>
+			<opcion valor="b">Simplifica el model OSI, atribuïnt algunes de les seves capes com a responsabilitat de la xarxa.</opcion>
+			<opcion valor="c">Simplifica el model OSI, atribuïnt algunes de les seves capes com a responsabilitat de l'aplicació.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Afegir capçaleres...</texto>
+		<opciones>
+			<opcion valor="a">Fa que disminueixi la quantitat de bits a transmetre</opcion>
+			<opcion valor="b">Introdueix un overhead</opcion>
+			<opcion valor="c">Impedeix aplicar criptografia</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quin d'aquests organismes s'encarrega d'elaborar estàndards de la capa de transport?</texto>
+		<opciones>
+			<opcion valor="a">ITU</opcion>
+			<opcion valor="b">IETF</opcion>
+			<opcion valor="c">ISOC</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Les capes del model OSI, per ordre, són...</texto>
+		<opciones>
+			<opcion valor="a">Física, enllaç, xarxa i aplicació.</opcion>
+			<opcion valor="b">Física, enllaç, xarxa, transport, presentació, sessió i aplicació.</opcion>
+			<opcion valor="c">Física, enllaç, xarxa, transport, sessió, presentació i aplicació.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+</preguntas>

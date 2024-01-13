@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+<pregunta>
+		<texto>Què permet fer IMAP?</texto>
+		<opciones>
+			<opcion valor="a">Només, obtenir i eliminar correus del servidor</opcion>
+			<opcion valor="b">Enviar correus i transferir-los entre servidors</opcion>
+			<opcion valor="c">Obtenir correu i gestionar-lo al servidor</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quina d'aquestes cadenes forma part del header d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Boundary</opcion>
+			<opcion valor="b">To</opcion>
+			<opcion valor="c">Content-disposition</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Si un client web rep el 304 Not Modified, què significa?</texto>
+		<opciones>
+			<opcion valor="a">Que no pot modificar el fitxer</opcion>
+			<opcion valor="b">Que pot aprofitar el contingut que té a la cache</opcion>
+			<opcion valor="c">Que no havia rebut mai el contingut</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Què és TOR?</texto>
+		<opciones>
+			<opcion valor="a">Un navegador desenvolupat per Stark Industries</opcion>
+			<opcion valor="b">Un client de correu electrònic</opcion>
+			<opcion valor="c">Un navegador que camufla la identitat de l'usuari</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Quin codi HTTP retorna el servidor quan podem fer servir el contingut que tenim desat a la memòria cau (cache)?</texto>
+		<opciones>
+			<opcion valor="a">200</opcion>
+			<opcion valor="b">404</opcion>
+			<opcion valor="c">304</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quina d'aquestes cadenes forma part del header d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Content-disposition</opcion>
+			<opcion valor="b">Boundary</opcion>
+			<opcion valor="c">From</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Amb el header HTTP max-age</texto>
+		<opciones>
+			<opcion valor="a">El servidor web pot donar indicis de la caducitat d'un element a la caché</opcion>
+			<opcion valor="b">Indica si el contingut requereix d'una edat mínima per ser vist</opcion>
+			<opcion valor="c">Indica quants anys fa que el servidor està funcionant</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>On van els missatges de correu quan s'envien?</texto>
+		<opciones>
+			<opcion valor="a">A la cua del servidor SMTP</opcion>
+			<opcion valor="b">A la cua del servidor IMAP</opcion>
+			<opcion valor="c">A la cua del servidor POP3</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Quina d'aquestes cadenes no forma part del header d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Content-disposition</opcion>
+			<opcion valor="b">Subject</opcion>
+			<opcion valor="c">To</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>La part cat de campusvirtual.urv.cat és ...</texto>
+		<opciones>
+			<opcion valor="a">el nom de domini</opcion>
+			<opcion valor="b">el subdomini</opcion>
+			<opcion valor="c">el TLD</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>La part urv de campusvirtual.urv.cat és ...</texto>
+		<opciones>
+			<opcion valor="a">el subdomini</opcion>
+			<opcion valor="b">el nom de domini</opcion>
+			<opcion valor="c">el TLD</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quines parts té un missatge de correu electrònic?</texto>
+		<opciones>
+			<opcion valor="a">Capçalera (header) i adjunts (attachments)</opcion>
+			<opcion valor="b">Cos (body) i adjunts (attachments)</opcion>
+			<opcion valor="c">Capçalera (header) i cos (body)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Un cos de correu electrònic pot tenir dues versions: text enriquit i text pla. Com les diferencia el lector de correu?</texto>
+		<opciones>
+			<opcion valor="a">Content-Type: multipart/alternative</opcion>
+			<opcion valor="b">Content-Type: attachment</opcion>
+			<opcion valor="c">Content-Type: multipart/mixed</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quin d'aquests protocols és antic i permet, només, autenticar l'usuari, obtenir i eliminar correus del servidor?</texto>
+		<opciones>
+			<opcion valor="a">IMAP</opcion>
+			<opcion valor="b">POP3</opcion>
+			<opcion valor="c">SMTP</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Quin dels protocols de correu electrònic permet al client organitzar carpetes al servidor?</texto>
+		<opciones>
+			<opcion valor="a">IMAP</opcion>
+			<opcion valor="b">POP3</opcion>
+			<opcion valor="c">SMTP</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>El port on escolta el servidor SMTP és …</texto>
+		<opciones>
+			<opcion valor="a">113</opcion>
+			<opcion valor="b">80</opcion>
+			<opcion valor="c">25</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Quin d'aquests protocols permet enviar correus i transferir-los entre servidors?</texto>
+		<opciones>
+			<opcion valor="a">IMAP</opcion>
+			<opcion valor="b">SMTP</opcion>
+			<opcion valor="c">POP3</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>En HTTP, què es coneix com a connexió persistent?</texto>
+		<opciones>
+			<opcion valor="a">Quan es rep la resposta del servidor, la connexió TCP es queda oberta</opcion>
+			<opcion valor="b">Quan s'envia la petició al servidor, s'obren múltiples connexions TCP</opcion>
+			<opcion valor="c">Quan es rep la resposta del client, la connexió es queda tancada</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>La part cat de www.urv.cat és ...</texto>
+		<opciones>
+			<opcion valor="a">el nom de domini</opcion>
+			<opcion valor="b">el subdomini</opcion>
+			<opcion valor="c">el TLD</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<pregunta>
+		<texto>Quin header HTTP a la petició GET permet usar la cache web?</texto>
+		<opciones>
+			<opcion valor="a">404 Not found</opcion>
+			<opcion valor="b">Not modified</opcion>
+			<opcion valor="c">If-Modified-Since</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quina diferència fonamental hi ha entre HTTP/1.0 i HTTP/1.1?</texto>
+		<opciones>
+			<opcion valor="a">La mida dels paquets és diferent</opcion>
+			<opcion valor="b">No hi ha cap diferència fonamental</opcion>
+			<opcion valor="c">En 1.0 calia establir/tancar una connexió TCP per cada objecte web</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Quina mena de servidor de noms coneix les IP de tots els servidors de urv.cat?</texto>
+		<opciones>
+			<opcion valor="a">Servidor de noms arrel</opcion>
+			<opcion valor="b">Servidor de noms TLD</opcion>
+			<opcion valor="c">Servidor de noms autoritatiu</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quina mena de servidor de noms coneix les IP de lamerce.ajuntament.barcelona?</texto>
+		<opciones>
+			<opcion valor="a">Servidor de noms arrel</opcion>
+			<opcion valor="b">Servidor de noms TLD</opcion>
+			<opcion valor="c">Servidor de noms autoritatiu</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Quina diferència fonamental hi ha entre HTTP/1.1 i HTTP/2?</texto>
+		<opciones>
+			<opcion valor="a">En 2 es fa servir una connexió TCP específica per cada objecte web</opcion>
+			<opcion valor="b">En 2 es multiplexen les peticions de forma eficient, transmetent contingut binari...</opcion>
+			<opcion valor="c">En 1 es fa servir QUIC</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Els protocols SMTP i IMAP poden funcionar sobre transport segur</texto>
+		<opciones>
+			<opcion valor="a">Sí, amb FTPS</opcion>
+			<opcion valor="b">No</opcion>
+			<opcion valor="c">Sí, amb STARTTLS, IMAPS, etc.</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>Quina mena de servidor de noms coneix les IP de tots els servidors de nom autoritatius del .cat?</texto>
+		<opciones>
+			<opcion valor="a">Servidor de noms arrel</opcion>
+			<opcion valor="b">Servidor de noms autoritatiu</opcion>
+			<opcion valor="c">Servidor de noms TLD</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Quin d'aquests protocols permet obtenir correu i gestionar-lo al servidor?</texto>
+		<opciones>
+			<opcion valor="a">POP3</opcion>
+			<opcion valor="b">SMTP</opcion>
+			<opcion valor="c">IMAP</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Quin dels protocols de correu és més complex i té més funcionalitats?</texto>
+		<opciones>
+			<opcion valor="a">IMAP</opcion>
+			<opcion valor="b">POP3</opcion>
+			<opcion valor="c">MP3</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Què fa HTTP/2 per ser més eficient?</texto>
+		<opciones>
+			<opcion valor="a">Fa els paquets més petits</opcion>
+			<opcion valor="b">Té capçaleres més llargues, però amb menys bits</opcion>
+			<opcion valor="c">Fa una compressió de capçaleres i anuncia contingut (promise)</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Les diferents parts del cos d'un correu estan delimitades per...</texto>
+		<opciones>
+			<opcion valor="a">El text definit com a frontier</opcion>
+			<opcion valor="b">El text definit com a boundary</opcion>
+			<opcion valor="c">El text definit com a disposition</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 1 -->
+	<pregunta>
+		<texto>Quin codi HTTP retorna el servidor quan tot ha anat bé i ens envia el contingut demanat?</texto>
+		<opciones>
+			<opcion valor="a">404</opcion>
+			<opcion valor="b">301</opcion>
+			<opcion valor="c">200</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 2 -->
+	<pregunta>
+		<texto>Un cos de correu electrònic pot tenir dues versions: text enriquit i text pla. Com les diferencia el lector de correu?</texto>
+		<opciones>
+			<opcion valor="a">Content-Type: multipart/alternative</opcion>
+			<opcion valor="b">Content-Type: attachment</opcion>
+			<opcion valor="c">Content-Type: multipart/mixed</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 3 -->
+	<pregunta>
+		<texto>Quina diferència fonamental hi ha entre HTTP/1.0 i HTTP/1.1?</texto>
+		<opciones>
+			<opcion valor="a">La mida dels paquets és diferent</opcion>
+			<opcion valor="b">No hi ha cap diferència fonamental</opcion>
+			<opcion valor="c">En 1.0 calia establir/tancar una connexió TCP per cada objecte web</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 4 -->
+	<pregunta>
+		<texto>Què és TOR?</texto>
+		<opciones>
+			<opcion valor="a">Un client de correu electrònic</opcion>
+			<opcion valor="b">Un navegador desenvolupat per Stark Industries</opcion>
+			<opcion valor="c">Un navegador que camufla la identitat de l'usuari</opcion>
+		</opciones>
+		<respuesta_correcta>c</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 5 -->
+	<pregunta>
+		<texto>Quina d'aquestes capçaleres no forma part del head d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Cc</opcion>
+			<opcion valor="b">Content-Disposition</opcion>
+			<opcion valor="c">Return-Path</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 6 -->
+	<pregunta>
+		<texto>En UTF-8, com sabem quants bytes hem de llegir?</texto>
+		<opciones>
+			<opcion valor="a">Hem de llegir sempre 32 bits</opcion>
+			<opcion valor="b">Llegim el primer byte i ja ho sabrem</opcion>
+			<opcion valor="c">Hem de llegir sempre 8 bytes</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 7 -->
+	<pregunta>
+		<texto>Quina d'aquestes capçaleres forma part del body d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Subject</opcion>
+			<opcion valor="b">Content-Type</opcion>
+			<opcion valor="c">Date</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 8 -->
+	<pregunta>
+		<texto>Què significa Cc en el context del correu electrònic?</texto>
+		<opciones>
+			<opcion valor="a">Clear Copy</opcion>
+			<opcion valor="b">Carbon Copy</opcion>
+			<opcion valor="c">Copy Copy</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 9 -->
+	<pregunta>
+		<texto>Quina d'aquestes capçaleres forma part del body d'un correu?</texto>
+		<opciones>
+			<opcion valor="a">Bcc</opcion>
+			<opcion valor="b">Content-Type</opcion>
+			<opcion valor="c">From</opcion>
+		</opciones>
+		<respuesta_correcta>b</respuesta_correcta>
+	</pregunta>
+	<!-- Pregunta 10 -->
+	<pregunta>
+		<texto>Com distingeix HTTP diferents instàncies de servidor allotjades en una mateixa màquina?</texto>
+		<opciones>
+			<opcion valor="a">Amb la capçalera Host</opcion>
+			<opcion valor="b">Amb la capçalera Specify-host</opcion>
+			<opcion valor="c">Amb la capçalera Instance</opcion>
+		</opciones>
+		<respuesta_correcta>a</respuesta_correcta>
+	</pregunta>
+    </preguntas>
