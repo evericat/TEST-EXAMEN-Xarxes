@@ -11,7 +11,7 @@ class TestApp:
         self.root.geometry("1200x500")
         self.center_window()
         self.current_question = self.load_progress()
-        self.questions = self.load_questions_from_xml("preguntas.xml")
+        self.questions = self.load_questions_from_xml("preguntas/preguntas.xml")
         self.shuffle_questions()
 
         self.label_question = tk.Label(root, text="", wraplength=1160, justify="left", font=("Arial", 16))
