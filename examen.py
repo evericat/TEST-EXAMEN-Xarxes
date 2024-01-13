@@ -11,7 +11,7 @@ class TestApp:
         self.root.geometry("1200x500")
         self.center_window()
         self.current_question = self.load_progress()
-        self.questions = self.load_questions_from_xml("preguntas_tema1.xml")
+        self.questions = self.load_questions_from_xml("preguntas.xml")
         self.shuffle_questions()
 
         self.label_question = tk.Label(root, text="", wraplength=1160, justify="left", font=("Arial", 16))
@@ -41,9 +41,16 @@ class TestApp:
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     def on_closing(self):
-        # Borra el archivo de progreso al cerrar la ventana
-        self.delete_progress_file()
-        self.root.destroy()
+        if tk.messagebox.askokcancel("Cerrar", "¿Estás seguro de que quieres cerrar la aplicación?"):
+            # Borra el archivo de progreso al cerrar la ventana
+            self.delete_progress_file()
+
+            # Verifica si la ventana aún existe antes de intentar destruirla
+            if self.root.winfo_exists():
+                self.root.destroy()
+
+            # Elimina el archivo de progreso al finalizar el test
+            self.delete_progress_file()
 
     def delete_progress_file(self):
         try:
@@ -103,6 +110,10 @@ class TestApp:
             self.next_button.config(state=tk.DISABLED)
         else:
             messagebox.showinfo("Fin del test", "¡Has completado el test!")
+
+            # Elimina el archivo de progreso al finalizar el test
+            self.delete_progress_file()
+
             self.root.destroy()
 
     def check_answer(self):
@@ -134,8 +145,8 @@ class TestApp:
         return user_answer == correct_answer
 
     def next_question(self):
-        self.save_progress(self.current_question + 1)  # Guardar el progreso después de mostrar el progreso
         self.current_question += 1
+        self.save_progress(self.current_question)  # Guardar el progreso después de incrementar la pregunta
         self.load_question()
 
     def update_stats_label(self):
