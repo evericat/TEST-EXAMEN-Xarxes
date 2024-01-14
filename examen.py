@@ -7,11 +7,11 @@ import os
 class TestApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Test App")
+        self.root.title("Test d'examen (Xarxes de Dades)")
         self.root.geometry("1200x500")
         self.center_window()
         self.current_question = self.load_progress()
-        self.questions = self.load_questions_from_xml("preguntas/preguntas.xml")
+        self.questions = self.load_questions_from_xml("preguntas/preguntas_tema2.xml")
         self.shuffle_questions()
 
         self.label_question = tk.Label(root, text="", wraplength=1160, justify="left", font=("Arial", 16))
@@ -26,37 +26,37 @@ class TestApp:
             option.pack()
             self.radio_buttons.append(option)
 
-        self.next_button = tk.Button(root, text="Siguiente", command=self.next_question, font=("Arial", 14))
+        self.next_button = tk.Button(root, text="Següent", command=self.next_question, font=("Arial", 14))
         self.next_button.pack(pady=10)
 
         self.stats_label = tk.Label(root, text="", font=("Arial", 14))
         self.stats_label.pack(side=tk.BOTTOM, pady=10)
 
-        self.correct_count = 0  # Contador de preguntas acertadas
-        self.incorrect_count = 0  # Contador de preguntas falladas
+        self.correct_count = 0  # Comptador de preguntes encertades
+        self.incorrect_count = 0  # Comptador de preguntes fallades
 
         self.load_question()
 
-        # Configura el evento para cerrar la ventana principal
+        # Configura l'esdeveniment per tancar la finestra principal
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     def on_closing(self):
-        if tk.messagebox.askokcancel("Cerrar", "¿Estás seguro de que quieres cerrar la aplicación?"):
-            # Borra el archivo de progreso al cerrar la ventana
+        if tk.messagebox.askokcancel("Tancar", "Estàs segur que vols tancar l'aplicació?"):
+            # Borra l'arxiu de progrés al tancar la finestra
             self.delete_progress_file()
 
-            # Verifica si la ventana aún existe antes de intentar destruirla
+            # Verifica si la finestra encara existeix abans de intentar destruir-la
             if self.root.winfo_exists():
                 self.root.destroy()
 
-            # Elimina el archivo de progreso al finalizar el test
+            # Elimina l'arxiu de progrés en finalitzar el test
             self.delete_progress_file()
 
     def delete_progress_file(self):
         try:
             os.remove("progress.txt")
         except FileNotFoundError:
-            pass  # No hace nada si el archivo no existe
+            pass  # No fa res si l'arxiu no existeix
 
     def center_window(self):
         screen_width = self.root.winfo_screenwidth()
@@ -72,7 +72,7 @@ class TestApp:
             with open("progress.txt", "r") as file:
                 return int(file.read())
         except FileNotFoundError:
-            # Crea el archivo "progress.txt" si no existe, con el valor inicial de 1
+            # Crea l'arxiu "progress.txt" si no existeix, amb el valor inicial de 1
             self.save_progress(1)
             return 1
 
@@ -109,9 +109,9 @@ class TestApp:
             self.radio_var.set(None)
             self.next_button.config(state=tk.DISABLED)
         else:
-            messagebox.showinfo("Fin del test", "¡Has completado el test!")
+            messagebox.showinfo("Fi del test", "Has completat el test!")
 
-            # Elimina el archivo de progreso al finalizar el test
+            # Elimina l'arxiu de progrés en finalitzar el test
             self.delete_progress_file()
 
             self.root.destroy()
@@ -132,9 +132,9 @@ class TestApp:
                         self.incorrect_count += 1
 
             if user_answer == self.questions[self.current_question]["correct_answer"]:
-                messagebox.showinfo("Respuesta Correcta", "¡Correcto!")
+                messagebox.showinfo("Resposta Correcta", "Correcte!")
             else:
-                messagebox.showinfo("Respuesta Incorrecta", f"¡Incorrecto!")
+                messagebox.showinfo("Resposta Incorrecta", f"Incorrecte!")
 
             self.next_button.config(state=tk.NORMAL)
             self.update_stats_label()
@@ -146,7 +146,7 @@ class TestApp:
 
     def next_question(self):
         self.current_question += 1
-        self.save_progress(self.current_question)  # Guardar el progreso después de incrementar la pregunta
+        self.save_progress(self.current_question)  # Guardar el progrés després d'incrementar la pregunta
         self.load_question()
 
     def update_stats_label(self):
@@ -155,7 +155,7 @@ class TestApp:
         correct_answers = self.correct_count
         incorrect_answers = self.incorrect_count
 
-        stats_text = f"Total de preguntas: {total_questions}   |  Preguntas contestadas: {answered_questions}   |  Correctas: {correct_answers}   |  Incorrectas: {incorrect_answers}"
+        stats_text = f"Total de preguntes: {total_questions}   |  Preguntes contestades: {answered_questions}   |  Correctes: {correct_answers}   |  Incorrectes: {incorrect_answers}"
         self.stats_label.config(text=stats_text)
 
 if __name__ == "__main__":
