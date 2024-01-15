@@ -3,6 +3,7 @@ from tkinter import messagebox
 from xml.etree import ElementTree as ET
 import random
 import os
+import time
 
 class TestApp:
     def __init__(self, root):
@@ -11,7 +12,7 @@ class TestApp:
         self.root.geometry("1200x500")
         self.center_window()
         self.current_question = self.load_progress()
-        self.questions = self.load_questions_from_xml("preguntas/preguntas_tema2.xml")
+        self.questions = self.load_questions_from_xml("preguntas/preguntas.xml")
         self.shuffle_questions()
 
         self.label_question = tk.Label(root, text="", wraplength=1160, justify="left", font=("Arial", 16))
@@ -32,8 +33,14 @@ class TestApp:
         self.stats_label = tk.Label(root, text="", font=("Arial", 14))
         self.stats_label.pack(side=tk.BOTTOM, pady=10)
 
+        self.timer_label = tk.Label(root, text="", font=("Arial", 14))
+        self.timer_label.pack(side=tk.BOTTOM, pady=10)
+
         self.correct_count = 0  # Comptador de preguntes encertades
         self.incorrect_count = 0  # Comptador de preguntes fallades
+
+        self.start_time = time.time()  # Tiempo de inicio del test
+        self.update_timer()  # Inicia la actualización del temporizador
 
         self.load_question()
 
@@ -109,7 +116,8 @@ class TestApp:
             self.radio_var.set(None)
             self.next_button.config(state=tk.DISABLED)
         else:
-            messagebox.showinfo("Fi del test", "Has completat el test!")
+            elapsed_time = int(time.time() - self.start_time)
+            messagebox.showinfo("Fi del test", f"Has completat el test en {elapsed_time} segons!")
 
             # Elimina l'arxiu de progrés en finalitzar el test
             self.delete_progress_file()
@@ -157,6 +165,15 @@ class TestApp:
 
         stats_text = f"Total de preguntes: {total_questions}   |  Preguntes contestades: {answered_questions}   |  Correctes: {correct_answers}   |  Incorrectes: {incorrect_answers}"
         self.stats_label.config(text=stats_text)
+
+    def update_timer(self):
+        elapsed_time_seconds = int(time.time() - self.start_time)
+        elapsed_minutes = elapsed_time_seconds // 60
+        elapsed_seconds = elapsed_time_seconds % 60
+
+        timer_text = f"Temps transcorregut: {elapsed_minutes} min {elapsed_seconds} seg"
+        self.timer_label.config(text=timer_text)
+        self.root.after(1000, self.update_timer)  # Actualiza cada segundo
 
 if __name__ == "__main__":
     root = tk.Tk()
